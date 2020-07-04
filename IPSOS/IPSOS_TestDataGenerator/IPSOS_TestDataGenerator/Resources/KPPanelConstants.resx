@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="generate_ABS_var" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Generate_AGE_R_var" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Generate_Contact_Phone_type_var" xml:space="preserve">
+    <value>1,2,3</value>
+  </data>
+  <data name="Generate_GENDER_R_var" xml:space="preserve">
+    <value>1,2</value>
+  </data>
+  <data name="Generate_HISP_R_var" xml:space="preserve">
+    <value>1,2</value>
+  </data>
+  <data name="Generate_RESPONDENT_R_var" xml:space="preserve">
+    <value>0,1</value>
+  </data>
+  <data name="generate_scriptLanguage_var" xml:space="preserve">
+    <value>1,2</value>
+  </data>
+  <data name="Generate_SHIP_ADDRESS1_var" xml:space="preserve">
+    <value>Powder galli,Chichpokali bunder</value>
+  </data>
+  <data name="Generate_SHIP_APT_var" xml:space="preserve">
+    <value>Narmada,Aura</value>
+  </data>
+  <data name="Generate_SHIP_CITY_var" xml:space="preserve">
+    <value>Pune,aurangabad</value>
+  </data>
+  <data name="Generate_SHIP_STATE_var" xml:space="preserve">
+    <value>MI,TX</value>
+  </data>
+  <data name="Generate_SHIP_ZIP_var" xml:space="preserve">
+    <value>43110,45632</value>
+  </data>
+  <data name="generate_SIGNUPDATE_var" xml:space="preserve">
+    <value>-1,-2,-3</value>
+  </data>
+  <data name="generate_WEBTV_var" xml:space="preserve">
+    <value>0,2,4</value>
+  </data>
+  <data name="Household_Members" xml:space="preserve">
+    <value>1,2</value>
+    <comment>Specify members of each family separated by comma.</comment>
+  </data>
+  <data name="Household_Number" xml:space="preserve">
+    <value>2</value>
+    <comment>Specify the number of families. Only one value should be present.</comment>
+  </data>
+  <data name="Column_Names" xml:space="preserve">
+    <value>NEO_CODE,FIRSTNAME_R,LASTNAME_R,HOME_ADDRESS1,HOME_CITY,HOME_STATE,HOME_ZIP,RESPONDENT_R,GENDER_R,AGE_R,HISP_R,RACE_WHITE,RACE_BLACK,RACE_OTHER,RACE_OTHER_TEXT,INTERNET_HOME,HAVE_EMAIL_R,EMAIL_R,PHONE_TYPE_LANDLINE,PHONE_TYPE_OTHER,PHONE_TYPE_CELL,CPOHH,CONTACT_PHONE,CONTACT_PHONE_TYPE,CONF_CONTACT_PHONE,CONF_CONTACT_PHONE_TYPE,BROADBAND,HH_SIZE_12UNDER,HH_SIZE_13TO17,HH_SIZE_18OVER,FIRSTNAME_2,LASTNAME_2,RESPONDENT_2,HAVE_EMAIL_2,SHARE_EMAIL_2,EMAIL_2,GENDER_2,AGE_2,GUARDIAN_2,CONSENT_2,FIRSTNAME_3,LASTNAME_3,RESPONDENT_3,HAVE_EMAIL_3,SHARE_EMAIL_3,EMAIL_3,GENDER_3,AGE_3,GUARDIAN_3,CONSENT_3,FIRSTNAME_4,LASTNAME_4,RESPONDENT_4,HAVE_EMAIL_4,SHARE_EMAIL_4,EMAIL_4,GENDER_4,AGE_4,GUARDIAN_4,CONSENT_4,FIRSTNAME_5,LASTNAME_5,RESPONDENT_5,HAVE_EMAIL_5,SHARE_EMAIL_5,EMAIL_5,GENDER_5,AGE_5,GUARDIAN_5,CONSENT_5,FIRSTNAME_6,LASTNAME_6,RESPONDENT_6,HAVE_EMAIL_6,SHARE_EMAIL_6,EMAIL_6,GENDER_6,AGE_6,GUARDIAN_6,CONSENT_6,FIRSTNAME_7,LASTNAME_7,RESPONDENT_7,HAVE_EMAIL_7,SHARE_EMAIL_7,EMAIL_7,GENDER_7,AGE_7,GUARDIAN_7,CONSENT_7,FIRSTNAME_8,LASTNAME_8,RESPONDENT_8,HAVE_EMAIL_8,SHARE_EMAIL_8,EMAIL_8,GENDER_8,AGE_8,GUARDIAN_8,CONSENT_8,FIRSTNAME_9,LASTNAME_9,RESPONDENT_9,HAVE_EMAIL_9,SHARE_EMAIL_9,EMAIL_9,GENDER_9,AGE_9,GUARDIAN_9,CONSENT_9,FIRSTNAME_10,LASTNAME_10,RESPONDENT_10,HAVE_EMAIL_10,SHARE_EMAIL_10,EMAIL_10,GENDER_10,AGE_10,GUARDIAN_10,CONSENT_10,FIRSTNAME_11,LASTNAME_11,RESPONDENT_11,HAVE_EMAIL_11,SHARE_EMAIL_11,EMAIL_11,GENDER_11,AGE_11,GUARDIAN_11,CONSENT_11,FIRSTNAME_12,LASTNAME_12,RESPONDENT_12,HAVE_EMAIL_12,SHARE_EMAIL_12,EMAIL_12,GENDER_12,AGE_12,GUARDIAN_12,CONSENT_12,SHIP_ADDRESS1,SHIP_APT,SHIP_CITY,SHIP_STATE,SHIP_ZIP,SHIP_PHONE,ALT_CONTACT_PHONE,ALT_CONTACT_PHONE_TYPE,RECRUITER_ID,RECRUITMENT_MODE,ABS,WEBTV,SCREENOUT,SCREENOUT_TYPE,SIGNUPDATE,SCRIPT_LANGUAGE,INTERNET_DEVICE_COMP,INTERNET_DEVICE_CELL,INTERNET_DEVICE_OTHER,HOME_COMPUTER,INTERNET_OTHER_LOCATION,INTERNET_OTHER_TYPE,INTERNET_CELL,INTERNET_PUBLIC_ACCESS,ADDRESS_FW,SAMPLE,HH_SIZE_18TO24,SPANISH_ATHOME,HOME_ADDRESS2,HH_SIZE_18TO29,HH_SIZE_25TO29,HH_SIZE_30OVER,INT_BROADBAND,INT_CELL,INT_OTHER,CONSENT,GLOBAL_HHNO,GLOBAL_MNO_1,GLOBAL_MNO_2,GLOBAL_MNO_3,GLOBAL_MNO_4,GLOBAL_MNO_5,GLOBAL_MNO_6,GLOBAL_MNO_7,GLOBAL_MNO_8,GLOBAL_MNO_9,GLOBAL_MNO_10,GLOBAL_MNO_11,GLOBAL_MNO_12,ORDER_REFERENCE_NO</value>
+    <comment>List of 190 column names.</comment>
+  </data>
+  <data name="First_Name" xml:space="preserve">
+    <value>Gourav,Shreyas, Pratik,Akash</value>
+    <comment>For below fields: Specify the valid value for this property separated by comma. Minimum one value should be present. No need of comma for single value input.</comment>
+  </data>
+  <data name="Generate_NEO_CODE_var" xml:space="preserve">
+    <value>ghdf86,gctw85,ghae56</value>
+  </data>
+  <data name="generate_1_2" xml:space="preserve">
+    <value>1,2</value>
+  </data>
+  <data name="Last_Name" xml:space="preserve">
+    <value>Deshpande, Nimbalkar, Patil</value>
+  </data>
+  <data name="generate_0_1" xml:space="preserve">
+    <value>0,1</value>
+  </data>
+  <data name="generate_0_1_2" xml:space="preserve">
+    <value>0,1,2</value>
+  </data>
+  <data name="Generate_RECRUITER_ID_var" xml:space="preserve">
+    <value>ONLINE</value>
+  </data>
+  <data name="Generate_RECRUITMENT_MODE_var" xml:space="preserve">
+    <value>2,3</value>
+  </data>
+  <data name="Generate_Sample_var" xml:space="preserve">
+    <value>ABS42W2,ABS42W3,ABS42W4,ABS42W5</value>
+  </data>
+  <data name="Generate_SPANISH_ATHOME_var" xml:space="preserve">
+    <value>1,2,3,4</value>
+  </data>
+</root>
